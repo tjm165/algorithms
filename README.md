@@ -10,5 +10,5 @@ Prioritizing clean and efficient code.
 ## UnionFind
 
 ## Counting and Bookkeeping. 
-Note: Don't let the title fool you. Counting and bookkeeping can be some of the hardest, yet most important, type of progamming
+Note: Don't let the title fool you. Counting and bookkeeping can be some of the hardest, yet most important, type of progamming.
 - [🔴 1224. Maximum Equal Frequency](https://leetcode.com/problems/maximum-equal-frequency/solutions/3021465/frequency-distribution-clean-code/)
