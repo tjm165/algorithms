@@ -9,6 +9,7 @@ Prioritizing clean and efficient code.
 
 # Two Pointers
 - [🟢 125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/solutions/3025360/two-pointers-clean-code/)
+- [🟢 2108. Find First Palindromic String in the Array](https://leetcode.com/problems/find-first-palindromic-string-in-the-array/solutions/3025382/iterate-until-a-valid-palindrome-is-found-clean-code/)
 
 ## UnionFind
 
