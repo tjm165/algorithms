@@ -13,7 +13,7 @@ Prioritizing clean and efficient code.
 ## Backtracking with DFS
 | Problem | Solution |
 |------------------------------------------------------------|------------------------------------------------------------|
-|[🟡 207. Course Schedule](https://leetcode.com/problems/number-of-islands/)| Python with explanation Coming soon |
+|[🟡 207. Course Schedule](https://leetcode.com/problems/number-of-islands/)| <ul><li>Python with explanation Coming soon</li><li>Go coming soon</li></ul>  |
 
 # Two Pointers
 | Problem | Solution |
