@@ -13,6 +13,9 @@ Prioritizing clean and efficient code.
 | Problem | Solution |
 |------------------------------------------------------------|------------------------------------------------------------|
 |[🟡 207. Course Schedule](https://leetcode.com/problems/number-of-islands/)| <ul><li>Python with explanation coming soon</li><li>Go coming soon</li></ul> 
+|[🟡 39. Combination Sum]https://leetcode.com/problems/combination-sum/description/| [Python with explanation](https://leetcode.com/problems/combination-sum/solutions/3047763/dfs-with-either-taking-or-not-taking-the-current-candidate-clean-code/)
+
+
 -----
 ## UnionFind
 | Problem | Solution |
