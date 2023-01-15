@@ -1,4 +1,4 @@
-# Thomas Moawad's Leetcode Solution Bank
+# Thomas Moawad's Algirhtm Practice and Solution Bank
 Prioritizing clean and efficient code.
 
 ## Core Data Structures and Algorithm Explanations
