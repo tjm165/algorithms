@@ -2,7 +2,7 @@
 Prioritizing clean and efficient code.
 
 ## Core Data Structures and Algorithm Explanations
-1. UnionFind
+1. [UnionFind](https://github.com/tjm165/algorithms-practice/blob/main/additional-explanations/union-find.md) with path compression and union by rank 
 
 ## Leetcode Solutions
 
