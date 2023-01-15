@@ -12,3 +12,6 @@ https://www.geeksforgeeks.org/union-by-rank-and-path-compression-in-union-find-a
         * Then return `node`. It is its own parent
     * Otherwise, recursively call `find` on the parent of `node`
 ```
+
+## Runtime
+### Find
