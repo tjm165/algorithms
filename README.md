@@ -21,7 +21,7 @@ Prioritizing clean and efficient code.
 ### UnionFind
 | Problem | Solution |
 |------------------------------------------------------------|------------------------------------------------------------|
-|[🟡 200. Number of Islands](https://leetcode.com/problems/number-of-islands/)| Python with explanation coming soon|
+|[🟡 200. Number of Islands](https://leetcode.com/problems/number-of-islands/)| https://leetcode.com/problems/number-of-islands/solutions/2998347/unionfind-count-down-on-each-union-clean-code/|
 |[🟡 695. Max Area of Island](https://leetcode.com/problems/max-area-of-island/)|Python with explanation coming soon|
 
 ### Two Pointers
