@@ -13,11 +13,14 @@ We can merge two nodes together by setting one node as the parent of the other n
 ## Basic Approach
 * `init` the data structure with:
    * An array `parents` such that `parents[node]` holds the parent of a given `node`. Initialize each node to be it's own parent. This can be done by a single pass through all the elements.
-* `union(nodeA, nodeB)`
+* `union(nodeA, nodeB)`: Will merge the two nodes together.
   * Find the roots of `nodeA`  and `nodeB`
-  * Union the two roots together.
+  * Iff the two roots are not equal, then a merge must happen. Set one root to be the parent of the other root.
     * Note that in this basic approach it doesn't matter which node we set as the parent.
-* `find(node)` will recursively call itself on the parent of `node`. This will continue until we find a node that is it's own parent. Return this parent. This is the root of `node`. 
+    * Note that if we were to always merge the nodes (even in the case that the nodes were already merged) then we would break the base case of `find`.
+* `find(node)`: Will find the root of `node`. 
+  * Base Case: If the node's parent is ever equal to itself, then we have found the root
+  * Otherwise: Call `find` on the parent of `node`. 
 
 ## Optimized Approach
 * `init` the data structure with: 
