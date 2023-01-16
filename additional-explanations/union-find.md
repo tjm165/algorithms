@@ -57,5 +57,7 @@ class UnionFind:
 
 ## Optimized Complexity
 * Time complexity
-   * https://www.geeksforgeeks.org/union-find-algorithm-union-rank-find-optimized-path-compression/?ref=rp
-* Space complexity
+  * https://en.wikipedia.org/wiki/Disjoint-set_data_structure#Proof_of_O(log*(n))_time_complexity_of_Union-Find 
+  * https://www.geeksforgeeks.org/union-find-algorithm-union-rank-find-optimized-path-compression/?ref=rp
+* Space complexity: O(node)
+  * We keep one array that contains one element for each node in the graph of n nodes.
