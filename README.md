@@ -35,3 +35,4 @@ Note: Don't let the title fool you. Counting and bookkeeping can be some of the 
 | Problem | Solution |
 |------------------------------------------------------------|------------------------------------------------------------|
 |[🔴 1224. Maximum Equal Frequency](https://leetcode.com/problems/maximum-equal-frequency/)|[Python with explanation](https://leetcode.com/problems/maximum-equal-frequency/solutions/3021465/frequency-distribution-clean-code/)
+|[🟡 1375. Number of Times Binary String Is Prefix-Aligned](https://leetcode.com/problems/maximum-equal-frequency/)|[Python with explanation](https://leetcode.com/problems/number-of-times-binary-string-is-prefix-aligned/solutions/3061173/keep-track-of-the-largest-bit/)
