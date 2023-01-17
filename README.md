@@ -15,7 +15,7 @@ Prioritizing clean and efficient code.
 ### Backtracking with DFS
 | Problem | Solution |
 |------------------------------------------------------------|------------------------------------------------------------|
-|[🟡 207. Course Schedule](https://leetcode.com/problems/number-of-islands/)| <ul><li>[Python with explanation](https://leetcode.com/problems/course-schedule/solutions/3056671/dfs-through-the-courses-clean-code/)</li><li>Go coming soon</li></ul> 
+|[🟡 207. Course Schedule](https://leetcode.com/problems/number-of-islands/)| <ul><li>[Python with explanation](https://leetcode.com/problems/course-schedule/solutions/3056671/dfs-through-the-courses-clean-code/)</li><li>[Go](https://leetcode.com/problems/course-schedule/solutions/3061154/dfs-through-the-courses-clean-code/)</li></ul> 
 |[🟡 39. Combination Sum](https://leetcode.com/problems/combination-sum/description/)| [Python with explanation](https://leetcode.com/problems/combination-sum/solutions/3047763/dfs-with-either-taking-or-not-taking-the-current-candidate-clean-code/)
 
 ### UnionFind
