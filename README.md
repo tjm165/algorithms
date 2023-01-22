@@ -12,6 +12,11 @@ Prioritizing clean and efficient code.
 |[🟡 200. Number of Islands](https://leetcode.com/problems/number-of-islands/)| [Python with explanation](https://leetcode.com/problems/number-of-islands/solutions/2987283/dfs-on-each-unvisited-piece-of-land-clean-code/)|
 |[🟡 695. Max Area of Island](https://leetcode.com/problems/max-area-of-island/)|[Python with explanation](https://leetcode.com/problems/max-area-of-island/solutions/2995428/dfs-on-each-unvisited-piece-of-land-clean-code/)
 
+### Classic BS/BST
+| Problem | Solution |
+|------------------------------------------------------------|------------------------------------------------------------|
+|[🟡 98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)| [Python with explanation](https://leetcode.com/problems/validate-binary-search-tree/solutions/3087885/recursive-bfs-approach-with-range/)|
+
 ### Backtracking with DFS
 | Problem | Solution |
 |------------------------------------------------------------|------------------------------------------------------------|
