@@ -16,6 +16,14 @@ After implementing UnionFind, we need to consider how to count how many connecte
 * `query`: The problem states that this function "Returns the number of connected component in the graph". This is easy since we are already keeping count! Just return `num_independent`
 
 # Complexity
+For more detailed explantion I recommend reading my [UnionFind explanation](https://github.com/tjm165/algorithms-practice/blob/main/additional-explanations/union-find.md#optimized-complexity)
+* Time complexity:
+    * `init`: Creates an array with default values. The size is `O(N)`
+    * `find`: Recusively calls itself until it finds a root node. This is `O(log*(n))`
+    * `connect:` Calls `find` and is thus also `O(log*(n))`
+    * `query`: Simply returns a variable in constant time and is thus `O(1)
+* Space complexity: O(node)
+    * We keep one array that contains one element for each node in the graph of n nodes.
 
 # Code
 ```
