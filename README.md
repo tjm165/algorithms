@@ -23,6 +23,7 @@ Prioritizing clean and efficient code.
 |------------------------------------------------------------|------------------------------------------------------------|
 |[🟡 200. Number of Islands](https://leetcode.com/problems/number-of-islands/)| [Python with explanation](https://leetcode.com/problems/number-of-islands/solutions/2998347/unionfind-count-down-on-each-union-clean-code/)|
 |[🟡 695. Max Area of Island](https://leetcode.com/problems/max-area-of-island/)|Python with explanation coming soon|
+|[🟡 323. Number of Connected Components In An Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/) <ul><li>[Free version on Lintcode](https://www.lintcode.com/problem/591/)</li></ul>|[Python with explanation](https://github.com/tjm165/algorithms-practice/blob/main/additional-explanations/alternative-problems/leetcode-323.md)|
 
 ### Two Pointers
 | Problem | Solution |
