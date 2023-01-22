@@ -5,7 +5,17 @@ The problem states that we need to count the number of connected components in a
 
 The intuition behind union find is to recursively ask each node who its parent is until you reach a node. In this explanation I will discuss how we get UnionFind to fit this problem. For a more detailed explanation of the UnionFind data structure I recommend reading my [UnionFind explanation](https://github.com/tjm165/algorithms-practice/blob/main/additional-explanations/union-find.md)
 
-After implementing UnionFind, we need to consider how to count how many connected components there are. We have two options, we can either count all at once, or we can count as we go. Counting as we go is much more efficient and thus we will choose this option.
+After implementing UnionFind, we need to consider how to count how many connected components there are. We have two options, we can either count all at once, or we can count as we go. Counting as we go is much more efficient and thus we will choose this option. More specifically, we will assume we start with N independent islands and then count down everytime we merge two islands together.
+
+# Approach
+* `init`: We will initialize the datastructure with a list of `parents` for each node. The parents list will start with a base case if -1 for each node, to represent that each node is initially its own parent. Second, we will initialize an integer `num_independent` that starts at `n` and represents the count of unconnected nodes
+* `find(nodeA)`: We will recursively call `find` on the parent of nodeA until we reach the base case where the parent is -1. Once we find the root node, we will perform a quick path compression technique, essentially caching the results so that it is `O(1)` on the next lookup. Finally, we will return the result
+* `connect(inputA, inputB)` First, the problem states that nodes are  _"labeled from 1 to n"_. Essentially since we are keeping our parents array 0 indexed but the input labels are 1 indexed we must convert. Luckily, the tricky part is recognizing this. Once we recognize it it's just a matter of subtracting 1 from inputA and inputB in order to get nodeA and nodeB. Next, we will find the roots of nodeA and nodeB. If the two roots are not equal then this meens that a merge needs to happen. For a merge to happen:
+    - We set the parent of one root to be the parent of the other root. 
+    - We decrement our count of `num_independent` by 1
+* `query`: The problem states that this function "Returns the number of connected component in the graph". This is easy since we are already keeping count! Just return `num_independent`
+
+# Complexity
 
 # Code
 ```
@@ -23,7 +33,7 @@ class ConnectingGraph3:
         if self.parents[nodeA] == -1:
             return nodeA
         res = self.find(self.parents[nodeA])
-        self.parents[nodeA] = res
+        self.parents[nodeA] = res # Necessary in order to avoid a Time Limit Exceeded
         return res
 
     def connect(self, inputA, inputB):
@@ -34,10 +44,8 @@ class ConnectingGraph3:
         rootB = self.find(nodeB)
 
         if rootA != rootB:
-            self.num_independent -= 1
-
-        if rootA != rootB:
             self.parents[rootA] = rootB 
+            self.num_independent -= 1
 
     """
     @return: An integer
