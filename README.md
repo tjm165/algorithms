@@ -10,6 +10,8 @@ Prioritizing clean and efficient code.
 |[🟡 695. Max Area of Island](https://leetcode.com/problems/max-area-of-island/)|[Python with explanation](https://leetcode.com/problems/max-area-of-island/solutions/2995428/dfs-on-each-unvisited-piece-of-land-clean-code/)
 
 ### Classic BS/BST
+🪨 Core concept: Read more about [Binary Search Trees](https://github.com/tjm165/algorithms-practice/blob/main/core-concepts/binary-search-tree.md)
+
 | Problem | Solution |
 |------------------------------------------------------------|------------------------------------------------------------|
 |[🟡 98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)| [Python with explanation](https://leetcode.com/problems/validate-binary-search-tree/solutions/3087885/recursive-bfs-approach-with-range/)|
@@ -21,7 +23,7 @@ Prioritizing clean and efficient code.
 |[🟡 39. Combination Sum](https://leetcode.com/problems/combination-sum/description/)| [Python with explanation](https://leetcode.com/problems/combination-sum/solutions/3047763/dfs-with-either-taking-or-not-taking-the-current-candidate-clean-code/)
 
 ### UnionFind
-[UnionFind](https://github.com/tjm165/algorithms-practice/blob/main/additional-explanations/union-find.md) with path compression and union by rank 
+🪨 Core concept: Read more about [UnionFind](https://github.com/tjm165/algorithms-practice/blob/main/core-concepts/union-find.md)
 
 | Problem | Solution |
 |------------------------------------------------------------|------------------------------------------------------------|
