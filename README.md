@@ -9,12 +9,14 @@ Prioritizing clean and efficient code.
 |[🟡 200. Number of Islands](https://leetcode.com/problems/number-of-islands/)| [Python with explanation](https://leetcode.com/problems/number-of-islands/solutions/2987283/dfs-on-each-unvisited-piece-of-land-clean-code/)|
 |[🟡 695. Max Area of Island](https://leetcode.com/problems/max-area-of-island/)|[Python with explanation](https://leetcode.com/problems/max-area-of-island/solutions/2995428/dfs-on-each-unvisited-piece-of-land-clean-code/)
 
+
 ### Classic BS/BST
 🪨 Core concept: Read more about [Binary Search Trees](https://github.com/tjm165/algorithms-practice/blob/main/core-concepts/binary-search-tree.md)
 
 | Problem | Solution |
 |------------------------------------------------------------|------------------------------------------------------------|
 |[🟡 98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)| [Python with explanation](https://leetcode.com/problems/validate-binary-search-tree/solutions/3087885/recursive-bfs-approach-with-range/)|
+|[🟢 704. Binary Search](https://leetcode.com/problems/binary-search/description/)| [Python with explanation](https://leetcode.com/problems/binary-search/solutions/3586125/binary-search-on-array-clean-code/)|
 
 ### Backtracking with DFS
 | Problem | Solution |
