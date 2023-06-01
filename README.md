@@ -1,8 +1,5 @@
-# Thomas Moawad's Algirhtm Practice and Solution Bank
+# Thomas Moawad's Algorithm Practice and Solution Bank
 Prioritizing clean and efficient code.
-
-## Core Data Structures and Algorithm Explanations
-1. [UnionFind](https://github.com/tjm165/algorithms-practice/blob/main/additional-explanations/union-find.md) with path compression and union by rank 
 
 ## Leetcode Solutions
 
@@ -24,6 +21,8 @@ Prioritizing clean and efficient code.
 |[🟡 39. Combination Sum](https://leetcode.com/problems/combination-sum/description/)| [Python with explanation](https://leetcode.com/problems/combination-sum/solutions/3047763/dfs-with-either-taking-or-not-taking-the-current-candidate-clean-code/)
 
 ### UnionFind
+[UnionFind](https://github.com/tjm165/algorithms-practice/blob/main/additional-explanations/union-find.md) with path compression and union by rank 
+
 | Problem | Solution |
 |------------------------------------------------------------|------------------------------------------------------------|
 |[🟡 200. Number of Islands](https://leetcode.com/problems/number-of-islands/)| [Python with explanation](https://leetcode.com/problems/number-of-islands/solutions/2998347/unionfind-count-down-on-each-union-clean-code/)|
