@@ -1,11 +1,13 @@
 # Binary Search Tree
 In a binary search tree every left node is less that the root. Every right node is greater than the root. 
 
-## Advantages
-- Be smarter about dfs. 
+
 
 # Binary Search
 Take advantage of data structures that have similar properties to a Binary Search Tree. This most commonly applies to a Binary Search Tree OR a sorted array
+
+## Advantages
+- Be smarter than classic iteration (dfs/bfs/iterate pass through entire list)
 
 ## Sample code for sorted array. 
 See [Leetcode 704](https://leetcode.com/problems/binary-search/)
