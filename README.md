@@ -17,6 +17,8 @@ Prioritizing clean and efficient code.
 |------------------------------------------------------------|------------------------------------------------------------|
 |[🟡 98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)| [Python with explanation](https://leetcode.com/problems/validate-binary-search-tree/solutions/3087885/recursive-bfs-approach-with-range/)|
 |[🟢 704. Binary Search](https://leetcode.com/problems/binary-search/description/)| [Python with explanation](https://leetcode.com/problems/binary-search/solutions/3586125/binary-search-on-array-clean-code/)|
+|[🟡 235. Lowest Common Ancestor of a Binary Search Tree
+](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)| Python with explanation coming soon|
 
 ### Backtracking with DFS
 | Problem | Solution |
