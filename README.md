@@ -19,6 +19,11 @@ Prioritizing clean and efficient code.
 |[🟢 704. Binary Search](https://leetcode.com/problems/binary-search/description/)| [Python with explanation](https://leetcode.com/problems/binary-search/solutions/3586125/binary-search-on-array-clean-code/)|
 |[🟡 235. Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)| Python with explanation coming soon|
 
+### Binary Tree
+💡 Binary Tree usually means recursion
+| Problem | Solution |
+| [🟡 236. Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | Solution | Python explanation coming soon
+
 ### Backtracking with DFS
 | Problem | Solution |
 |------------------------------------------------------------|------------------------------------------------------------|
