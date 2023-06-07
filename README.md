@@ -24,7 +24,6 @@ Prioritizing clean and efficient code.
 | Problem | Solution |
 |------------------------------------------------------------|------------------------------------------------------------|
 | [🟡 236. Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | Python with explanation coming soon
- |
 
 ### Backtracking with DFS
 | Problem | Solution |
