@@ -22,6 +22,7 @@ Prioritizing clean and efficient code.
 ### Binary Tree
 💡 Binary Tree usually means recursion
 | Problem | Solution |
+|------------------------------------------------------------|------------------------------------------------------------|
 | [🟡 236. Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | Solution | Python explanation coming soon
 
 ### Backtracking with DFS
