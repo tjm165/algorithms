@@ -3,6 +3,12 @@ Prioritizing clean and efficient code.
 
 ## Leetcode Solutions
 
+### LinkedList
+| Problem | Solution |
+|------------------------------------------------------------|------------------------------------------------------------|
+|[🟡 ⭐️ 237. Delete Node](https://leetcode.com/problems/delete-node-in-a-linked-list)| Python with explanation coming soon |
+
+
 ### Classic DFS/BFS
 | Problem | Solution |
 |------------------------------------------------------------|------------------------------------------------------------|
