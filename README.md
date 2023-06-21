@@ -10,6 +10,8 @@ Prioritizing clean and efficient code.
 
 
 ### Classic DFS/BFS
+🪨 Core concept: Read more about [DFS/BFS](https://github.com/tjm165/algorithms/blob/main/core-concepts/dfs-bfs.md)
+
 | Problem | Solution |
 |------------------------------------------------------------|------------------------------------------------------------|
 |[🟡 200. Number of Islands](https://leetcode.com/problems/number-of-islands/)| [Python with explanation](https://leetcode.com/problems/number-of-islands/solutions/2987283/dfs-on-each-unvisited-piece-of-land-clean-code/)|
