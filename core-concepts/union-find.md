@@ -61,3 +61,7 @@ class UnionFind:
   * https://www.geeksforgeeks.org/union-find-algorithm-union-rank-find-optimized-path-compression/?ref=rp
 * Space complexity: O(node)
   * We keep one array that contains one element for each node in the graph of n nodes.
+  * 
+
+# Other Operations
+* Size: Must initialize a count and count down on each union
