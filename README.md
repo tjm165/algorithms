@@ -14,8 +14,10 @@ Prioritizing clean and efficient code.
 
 | Problem | Solution |
 |------------------------------------------------------------|------------------------------------------------------------|
+|[🟢 ⭐️ 1971. Find if Path Exists in Graph](https://leetcode.com/problems/find-if-path-exists-in-graph/description/)| [Python with explanation](https://leetcode.com/problems/find-if-path-exists-in-graph/solutions/3663783/dfs-recursive-dfs-iterative-bfs-iterative/)|
 |[🟡 200. Number of Islands](https://leetcode.com/problems/number-of-islands/)| [Python with explanation](https://leetcode.com/problems/number-of-islands/solutions/2987283/dfs-on-each-unvisited-piece-of-land-clean-code/)|
 |[🟡 695. Max Area of Island](https://leetcode.com/problems/max-area-of-island/)|[Python with explanation](https://leetcode.com/problems/max-area-of-island/solutions/2995428/dfs-on-each-unvisited-piece-of-land-clean-code/)
+
 
 
 ### Classic BS/BST
@@ -44,9 +46,12 @@ Prioritizing clean and efficient code.
 
 | Problem | Solution |
 |------------------------------------------------------------|------------------------------------------------------------|
+|[🟢 ⭐️ 1971. Find if Path Exists in Graph](https://leetcode.com/problems/find-if-path-exists-in-graph/description/)| [Python with explanation](https://leetcode.com/problems/find-if-path-exists-in-graph/solutions/3678953/union-find/)|
 |[🟡 200. Number of Islands](https://leetcode.com/problems/number-of-islands/)| [Python with explanation](https://leetcode.com/problems/number-of-islands/solutions/2998347/unionfind-count-down-on-each-union-clean-code/)|
 |[🟡 695. Max Area of Island](https://leetcode.com/problems/max-area-of-island/)|Python with explanation coming soon|
 |[🟡 323. Number of Connected Components In An Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/) <ul><li>[Free version on Lintcode](https://www.lintcode.com/problem/591/)</li></ul>|[Python with explanation](https://github.com/tjm165/algorithms-practice/blob/main/additional-explanations/alternative-problems/leetcode-323.md)|
+
+
 
 ### Two Pointers
 | Problem | Solution |
