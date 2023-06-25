@@ -43,14 +43,14 @@ class UnionFind:
     def find(self, node):
         if self.parent[node] == -1:
             return node
-        self.parent[node] = self.find(self.parent[node])
+        self.parent[node] = self.find(self.parent[node]) # recursively get the answer and save it
         return self.parent[node]
 
     def union(self, a, b):
         rootA = self.find(a)
         rootB = self.find(b)
 
-        if rootA != rootB:
+        if rootA != rootB: # else keep as -1
             self.parent[rootA] = rootB
 ```
 
