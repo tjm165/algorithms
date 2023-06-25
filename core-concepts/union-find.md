@@ -32,8 +32,6 @@ We can merge two nodes together by setting one node as the parent of the other n
 ## Optimized Code
 
 ```
-# Start with an island for each piece of land. Decrement every time we Union.
-
 class UnionFind:
     def __init__(self):
         self.parent = collections.defaultdict(lambda: -1)
