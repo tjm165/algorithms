@@ -39,10 +39,12 @@ class UnionFind:
     # Find with path compression.
     # A path in the graph will now be on average log(n)
     def find(self, node):
-        if self.parent[node] == -1:
+        parent = self.parent[node]
+        if parent == -1:
             return node
-        self.parent[node] = self.find(self.parent[node]) # recursively get the answer and save it
-        return self.parent[node]
+        higherAncestor = self.find(parent) # recursion
+        self.parent[node] = higherAncestor # path compression
+        return higherAncestor
 
     def union(self, a, b):
         rootA = self.find(a)
@@ -50,6 +52,7 @@ class UnionFind:
 
         if rootA != rootB: # else keep as -1
             self.parent[rootA] = rootB
+
 ```
 
 ## Optimized Complexity
