@@ -1,5 +1,7 @@
 # Union Find
 
+[Example Leetcode](https://leetcode.com/problems/find-if-path-exists-in-graph/solutions/3678953/union-find/)
+
 https://www.geeksforgeeks.org/union-by-rank-and-path-compression-in-union-find-algorithm/
 
 ## Description
@@ -25,19 +27,16 @@ We can merge two nodes together by setting one node as the parent of the other n
 ## Optimized Approach
 * `init` the data structure with: 
    * Rather than doing this with a single pass, let's just use defaultdict and set the default value to `-1`. We can remember that `-1` means "I am my own parent". This initialization can now be done in constant time rather than linear time.
-* `find(node)`: Before, we would recusively call `find` until we got to a root. However, this could worst case take `O(n)` time! To optimize this, we can cache the result by setting `parent[node] = root`. This is called "path compression". As the algorithm runs, this will eventually lead to `find` taking `O(1)` time!
+* `find(node)`: Before, we would recursively call `find` until we got to a root. However, this could worst case take `O(n)` time! To optimize this, we can cache the result by setting `parent[node] = root`. This is called "path compression". As the algorithm runs, this will eventually lead to `find` taking `O(1)` time!
 
 ## Optimized Code
 
 ```
-# Start with an island for each peice of land. Decrement everytime we Union.
-
-from collections import defaultdict
-from itertools import product
+# Start with an island for each piece of land. Decrement every time we Union.
 
 class UnionFind:
     def __init__(self):
-        self.parent = defaultdict(lambda: -1)
+        self.parent = collections.defaultdict(lambda: -1)
 
     # Find with path compression.
     # A path in the graph will now be on average log(n)
